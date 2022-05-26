@@ -1,4 +1,1 @@
-<<<<<<< HEAD
-=======
-print('Second branch')
->>>>>>> second
+hello

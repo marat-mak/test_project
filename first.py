@@ -1,1 +1,1 @@
-print(third)
+print(hello)

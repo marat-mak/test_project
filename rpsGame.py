@@ -9,18 +9,10 @@ while True:
     print(f'Побед: {wins}, поражений: {losses}, ничьих: {draws} | Игр сыграно: {games}')
     games += 1
     while True:
-        if games > 10 and wins <= losses:
-            print('Ход ИИ')
-            player_move = random.randint(1,3)
-        else:
-            print('Ваш ход: (к)амень (н)ожницы (б)умага | (в)ыход')
-            player_move = input()
-        if player_move == 1:
-            player_move = 'к'
-        if player_move == 2:
-            player_move = 'н'
-        if player_move == 3:
-            player_move = 'б'
+
+        print('Ваш ход: (к)амень (н)ожницы (б)умага | (в)ыход')
+        player_move = input()
+
         if player_move == 'в':
             sys.exit()
         if player_move == 'к' or player_move == 'н' or player_move == 'б':
